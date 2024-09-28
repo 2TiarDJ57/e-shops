@@ -1,0 +1,105 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+@keyframes animation-icon {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    background-color: #19376D !important;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.navbar a:focus {
+    color: white;
+}
+
+.dropdown-menu a{
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    color: black;
+}
+
+
+.hero {
+    position: relative;
+    
+}
+
+header span{
+    font-family: 'Caveat', cursive;
+}
+
+header .img-hero {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    animation: animation-icon 2s infinite;
+}
+
+main .card img {
+    width: 150px;
+}
+
+main .card {
+    border: 2px solid greenyellow;
+}
+
+nav img {
+    width: 50px;
+}
+
+.detail-product .card{
+    margin: 0 auto;
+}
+
+.update-card {
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px 2px green;
+}
+
+.order .card {
+    width: 300px;
+    margin: 5px 10px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px 2px grey;
+}
+
+.order .order-card {
+    flex-wrap: wrap;
+}
+
+.form-box {
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+}
